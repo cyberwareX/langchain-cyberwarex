@@ -20,6 +20,12 @@ pip install langchain-cyberwarex            # free trial only
 pip install "langchain-cyberwarex[x402]"    # pay per call from a wallet
 ```
 
+Until the first PyPI release is out, install from GitHub:
+
+```bash
+pip install "langchain-cyberwarex[x402] @ git+https://github.com/cyberwareX/langchain-cyberwarex"
+```
+
 ## Use
 
 ```python
