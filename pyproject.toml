@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "langchain-cyberwarex"
+version = "0.1.0"
+description = "LangChain tools for live web search and web page reading, paid per call in USDC with x402. No account, no API key, free trial."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "CyberWareX", email = "x402@cyberwarex.com" }]
+keywords = ["langchain", "langgraph", "web-search", "x402", "ai-agents", "usdc"]
+dependencies = ["langchain-core>=0.3", "requests>=2.25", "pydantic>=2"]
+
+[project.optional-dependencies]
+x402 = ["x402[evm,requests]>=2.0", "eth-account>=0.11"]
+test = ["pytest>=7"]
+
+[project.urls]
+Homepage = "https://cyberwarex.com"
+Source = "https://github.com/cyberwareX/langchain-cyberwarex"
+
+[tool.setuptools.packages.find]
+include = ["langchain_cyberwarex*"]
