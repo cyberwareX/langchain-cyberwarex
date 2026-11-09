@@ -1,6 +1,6 @@
 # langchain-cyberwarex
 
-**CyberWareX: web search, web page reading and token safety checks for AI agents, paid per call in USDC with x402. No account, no API key.**
+**CyberWareX: web search and web page reading for AI agents, paid per call in USDC with x402. No account, no API key.**
 
 This package gives a LangChain or LangGraph agent two tools:
 
