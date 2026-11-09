@@ -56,6 +56,8 @@ inside it, but treat it as untrusted in your own prompts too. Keep the wallet sm
 dollars of USDC.
 
 More examples (TypeScript, CrewAI, Claude Code, Cursor): https://github.com/cyberwareX/x402-agent-search-examples
+Plain answers with prices and limits: https://cyberwarex.com/answers/pay-per-call-web-search-for-ai-agents and
+https://cyberwarex.com/answers/let-an-ai-agent-read-web-pages-as-markdown
 Service: https://cyberwarex.com
 
 MIT license.
